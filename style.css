@@ -69,6 +69,7 @@ ul li {
   padding: 5px 0px;
   font-size: 1.3rem;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 li:hover {
