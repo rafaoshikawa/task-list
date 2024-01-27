@@ -19,18 +19,21 @@
     </header>
     <div class="container">
       <form id="task-form">
-        <input type="text" id="task" required placeholder="Ex: Arrumar a casa" />
+        <input
+          type="text"
+          id="task"
+          required
+          placeholder="Ex: Arrumar a casa"
+        />
         <div class="container-button">
-          <button type="submit">Adicionar +</button>
-          <button type="reset" src="./index.html">Limpar</button>
+          <button class="button" type="submit">Adicionar +</button>
+          <a class="button" href="./index.html">Limpar</a>
         </div>
         <p id="instruction">
           ao finalizar uma tarefa, clique em cima dela para risca-la!
         </p>
       </form>
-      <ul id="task-list">
-
-      </ul>
+      <ul id="task-list"></ul>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./script.js"></script>

@@ -3,7 +3,7 @@ $(document).ready(function () {
   var taskList = $("#task-list");
 
   //previnir o comportamento padrao do formulario que atualiza a pagina quando é submetido
-  $("form").on("submit", function (e) {
+  $("form").on('submit', function (e) {
     e.preventDefault();
 
     //recuperamos o valor do input text
