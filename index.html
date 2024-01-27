@@ -14,8 +14,8 @@
   </head>
   <body>
     <header class="container">
-      <h1 id="title">Exercicio Jquery</h1>
-      <h2 id="subtitle">Lista de Tarefas</h2>
+      <h1 id="title">Checklist de Tarefas</h1>
+      <h2 id="subtitle">exercício Jquery</h2>
     </header>
     <div class="container">
       <form id="task-form">
@@ -25,11 +25,15 @@
           <button class="button" type="submit">Adicionar +</button>
           <a class="button" href="./index.html">Limpar</a>
         </div>
-        <p id="instruction">
+        <p class="instruction-tittle">instrução</p>
+        <p class="instruction">
           ao finalizar uma tarefa, clique em cima dela para risca-la!
         </p>
+        <span id="dashed"></span>
       </form>
-      <ul id="task-list"></ul>
+      <ol id="task-list">
+
+      </ol>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./script.js"></script>
