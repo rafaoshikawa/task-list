@@ -12,6 +12,10 @@ body {
   background-color: #ffecd1;
   padding: 10rem 0px;
 }
+
+header h1 {
+  text-align: center;
+}
 #tittle {
   font-weight: bold;
   text-align: center;
@@ -33,6 +37,7 @@ body {
 .container {
   display: grid;
   justify-content: center;
+  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
 }
